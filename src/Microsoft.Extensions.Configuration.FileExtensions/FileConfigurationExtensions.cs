@@ -48,7 +48,7 @@ namespace Microsoft.Extensions.Configuration
                 return builder.Properties[FileProviderKey] as IFileProvider;
             }
 
-#if NET451
+#if NET46
             var stringBasePath = AppDomain.CurrentDomain.GetData("APP_CONTEXT_BASE_DIRECTORY") as string
                 ?? AppDomain.CurrentDomain.BaseDirectory
                 ?? string.Empty;

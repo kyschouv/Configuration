@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net451</TargetFramework>
+    <TargetFramework>net46</TargetFramework>
     <DebugType>portable</DebugType>
     <OutputType>Exe</OutputType>
     <!-- TODO remove rid when https://github.com/dotnet/sdk/issues/396 is resolved -->
